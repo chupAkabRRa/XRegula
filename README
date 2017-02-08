@@ -1,0 +1,6 @@
+Test application that analyzes images in requested folder, cuts faces from photos 
+and saves them in separate files. It also stores all the information about found
+faces in separate JSON files (one JSON per subfolder with images).
+
+IMPORTANT! Please, note, that project was built with /MD flag, i.e.
+MSCV 14 redistrib is required
