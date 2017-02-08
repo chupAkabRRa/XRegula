@@ -12,15 +12,29 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# Test folder
+RegulaDllTest/
+
+# Include/lib folders for OpenCV and Boost
+include/
+lib/
+
+# Not all  file in bin/ should be included
+# Ignore PDB-related objects
+*.iobj
+*.ipdb
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
-[Rr]elease/
+RegulaApp/[Rr]elease/
+RegulaDll/[Rr]elease
 [Rr]eleases/
-x64/
-x86/
+RegulaApp/x64/
+RegulaDll/x64/
+RegulaApp/x86/
+RegulaDll/x86/
 bld/
-[Bb]in/
 [Oo]bj/
 [Ll]og/
 
