@@ -1,0 +1,8 @@
+; RegulaDll.def : Declares the module parameters.
+
+LIBRARY      "RegulaDll.DLL"
+
+EXPORTS
+	CreateThreadPool  @1
+	EnqueueImage @2
+	DestroyThreadPool @3
